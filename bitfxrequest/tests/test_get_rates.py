@@ -1,4 +1,5 @@
 from datetime import datetime
+
 from bitfxrequest import get_rates
 
 

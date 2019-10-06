@@ -8,10 +8,11 @@ last CLOSE and average VOLUME for the last 10 days
 via get_rate() func.
 """
 
-import time
 import logging
-import requests
+import time
 from datetime import datetime, timedelta
+
+import requests
 
 BASE_URL = "https://api-pub.bitfinex.com/v2/"
 
