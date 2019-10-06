@@ -147,8 +147,10 @@ def get_rates():
             """
             quote from https://docs.bitfinex.com/docs/rest-general
             NOTE
-            In order to offer the best service possible we have added a rate limit to the number of REST requests.
-            Our rate limit policy can vary in a range of 10 to 90 requests per minute depending on some factors (e.g. servers load, endpoint, etc.).
+            In order to offer the best service possible we have added
+            a rate limit to the number of REST requests.
+            Our rate limit policy can vary in a range of 10 to 90 requests per minute
+            depending on some factors (e.g. servers load, endpoint, etc.).
             """
             pause = 30
             while tries:
