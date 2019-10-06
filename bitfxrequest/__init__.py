@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 bitfxrequest - a simple client for the bitfinex REST API:
 https://api-pub.bitfinex.com/v2/
